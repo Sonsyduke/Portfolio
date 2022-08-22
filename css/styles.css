@@ -1,0 +1,18 @@
+/* CSS VARIABLES */
+:root {
+  --main-bg: #0a192f;
+  --main-header: #ccd6f6;
+  --sub-heading: #8892b0;
+  --content-bg: #0f2545;
+  --comments: #94a1b2;
+  --purple: #7f5af0;
+  --yellow: #eeff31;
+  --red: #e3244c;
+  --green: #64ffda;
+  --orange: #e39d24;
+}
+
+/* GENERAL CSS */
+body {
+  background-color: var(--main-bg);
+}
