@@ -45,6 +45,11 @@ body {
 .link {
   color: var(--comments);
   text-decoration: none;
+  transition: all 0.2s;
+}
+
+.link:hover {
+  color: var(--green);
 }
 
 .resume-btn {
