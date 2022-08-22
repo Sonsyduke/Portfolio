@@ -85,3 +85,97 @@ body {
 .resume-btn:hover:after {
   width: 100%;
 }
+
+/* ========================== */
+/* Hero-section */
+
+.main-container {
+  width: 80%;
+  margin: auto;
+}
+
+.hero-section {
+  min-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.greeting {
+  color: var(--green);
+  margin-bottom: 10px;
+}
+
+.main-heading,
+.sub-heading {
+  font-size: 3.5rem;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.main-heading {
+  color: var(--main-header);
+}
+
+.sub-heading {
+  color: var(--sub-heading);
+}
+
+.desc {
+  color: var(--sub-heading);
+  width: 40%;
+  line-height: 1.5;
+}
+
+.contact-me {
+  text-decoration: none;
+  color: var(--green);
+  border: 2px solid var(--green);
+  border-radius: 5px;
+  display: inline-block;
+  padding: 15px 70px;
+  margin: 30px 0;
+  position: relative;
+  transition: all 0.35s;
+}
+
+.contact-me span {
+  position: relative;
+  z-index: 2;
+}
+
+.contact-me:after {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background: var(--green);
+  transition: all 0.35s;
+}
+
+.contact-me:hover {
+  color: var(--main-bg);
+}
+
+.contact-me:hover:after {
+  width: 100%;
+}
+
+.socials {
+  display: flex;
+  gap: 30px;
+}
+
+.social-link {
+  font-size: 1.5rem;
+  color: var(--sub-heading);
+  transition: all 0.2s;
+}
+
+.social-link:hover {
+  color: var(--main-header);
+  transition: all 0.2s;
+}
