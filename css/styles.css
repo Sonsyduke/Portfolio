@@ -79,7 +79,7 @@ body {
 }
 
 .resume-btn:hover {
-  color: #fff;
+  color: var(--main-bg);
 }
 
 .resume-btn:hover:after {
