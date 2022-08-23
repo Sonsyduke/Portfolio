@@ -291,4 +291,5 @@ body {
 
 .orange {
   color: var(--orange);
+  text-decoration: none;
 }
