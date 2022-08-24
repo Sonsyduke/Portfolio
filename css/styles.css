@@ -301,3 +301,74 @@ body {
 .margin-left-double {
   margin-left: 100px;
 }
+
+/* ========================== */
+/* Blog-section */
+
+.blog-section {
+  margin-top: var(--section-margin);
+}
+
+.row {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 30px;
+}
+
+.row:nth-child(1) {
+  margin-bottom: 30px;
+}
+
+.post {
+  background-color: var(--content-bg);
+  padding: 30px;
+  border-radius: 5px;
+}
+
+.post-heading {
+  color: var(--main-header);
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.post-desc {
+  color: var(--sub-heading);
+  line-height: 1.5;
+  margin-bottom: 30px;
+}
+
+.read-more-btn {
+  text-decoration: none;
+  color: var(--green);
+  border: 2px solid var(--green);
+  padding: 15px 0;
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  position: relative;
+  transition: all 0.35s;
+}
+
+.read-more-btn span {
+  position: relative;
+  z-index: 2;
+}
+
+.read-more-btn:after {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background: var(--green);
+  transition: all 0.35s;
+}
+
+.read-more-btn:hover {
+  color: var(--main-bg);
+}
+
+.read-more-btn:hover:after {
+  width: 100%;
+}
