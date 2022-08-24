@@ -293,3 +293,11 @@ body {
   color: var(--orange);
   text-decoration: none;
 }
+
+.margin-left {
+  margin-left: 50px;
+}
+
+.margin-left-double {
+  margin-left: 100px;
+}
