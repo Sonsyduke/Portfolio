@@ -372,3 +372,50 @@ body {
 .read-more-btn:hover:after {
   width: 100%;
 }
+
+/* ========================== */
+/* Footer-section */
+
+footer {
+  margin-top: var(--section-margin);
+  background-color: var(--content-bg);
+  min-height: 200px;
+  display: flex;
+  align-items: center;
+}
+
+.footer-section {
+  width: 30%;
+  margin: auto;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.footer-link {
+  color: var(--main-header);
+  text-decoration: none;
+  transition: all 0.35s;
+}
+
+.footer-link:hover {
+  color: var(--green);
+  transition: all 0.35s;
+}
+
+.socials-footer {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.social-link {
+  margin: 30px 0;
+  font-size: 2.5rem;
+}
+
+.connect {
+  text-align: center;
+  color: var(--sub-heading);
+}
