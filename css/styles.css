@@ -28,6 +28,10 @@ body {
 /* ========================== */
 /* Navbar */
 
+.phone-navbar {
+  display: none;
+}
+
 .navbar {
   width: 90%;
   min-height: 70px;
@@ -47,6 +51,18 @@ body {
   font-size: 2rem;
   color: var(--green);
   text-decoration: none;
+}
+
+#menu {
+  color: var(--main-header);
+}
+
+#menu:hover {
+  cursor: pointer;
+}
+
+#close:hover {
+  cursor: pointer;
 }
 
 .link {
@@ -448,6 +464,34 @@ footer {
 }
 
 @media (max-width: 750px) {
+  .navbar-links {
+    display: none;
+  }
+
+  .display {
+    display: flex;
+  }
+
+  .phone-navbar {
+    gap: 30px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: var(--content-bg);
+    min-height: 400px;
+    width: 50%;
+  }
+
+  #close {
+    position: absolute;
+    top: 10%;
+    right: 20%;
+    color: var(--main-header);
+  }
+
   .project {
     flex-direction: column;
   }
