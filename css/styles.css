@@ -54,6 +54,7 @@ body {
 }
 
 #menu {
+  display: none;
   color: var(--main-header);
 }
 
@@ -361,6 +362,7 @@ body {
   text-decoration: none;
   color: var(--green);
   border: 2px solid var(--green);
+  border-radius: 5px;
   padding: 15px 0;
   display: inline-block;
   width: 100%;
@@ -468,6 +470,10 @@ footer {
     display: none;
   }
 
+  #menu {
+    display: block;
+  }
+
   .display {
     display: flex;
   }
@@ -492,12 +498,21 @@ footer {
     color: var(--main-header);
   }
 
+  .desc {
+    width: 90%;
+  }
+
   .project {
     flex-direction: column;
   }
 
   .project-image {
     width: 100%;
+    min-height: 200px;
+  }
+
+  .about-me p {
+    font-size: 0.9rem;
   }
 
   .line {
@@ -509,5 +524,15 @@ footer {
   }
   .row {
     flex-direction: column;
+  }
+
+  .footer-section {
+    width: 60%;
+  }
+}
+
+@media (max-width: 450px) {
+  .about-me p {
+    font-size: 0.6rem;
   }
 }
