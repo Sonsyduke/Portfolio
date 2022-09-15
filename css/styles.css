@@ -344,6 +344,7 @@ body {
   background-color: var(--content-bg);
   padding: 30px;
   border-radius: 5px;
+  width: 30%;
 }
 
 .post-heading {
