@@ -536,4 +536,8 @@ footer {
   .about-me p {
     font-size: 0.6rem;
   }
+
+  .post {
+    width: 80%;
+  }
 }
